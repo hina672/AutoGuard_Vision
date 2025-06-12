@@ -78,23 +78,28 @@ pip install ultralytics opencv-python imagehash pillow numpy
 
 ## 📽️ Example Video Source
 
-This sample uses a demo video URL:
+This sample uses a demo video URL for vehicle detection:
 
 ```python
-video_url = "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4"
+video_url = "https://www.pexels.com/video/traffic-flow-in-the-highway-2103099/"
 ```
+
+## 📷 Sample Snapshot
+
+![example](snapshots/snapshot_1749747477.jpg)
+
+
+![example](snapshots/snapshot_1749747489.jpg)
+
+
+![example](snapshots/snapshot_1749747508.jpg)
+
 
 To use your webcam instead, comment out the video line and uncomment:
 
 ```python
 cap = cv2.VideoCapture(0)  # Webcam
 ```
-
-
-
-## 📷 Sample Snapshot
-
-![example](./v1%20saved_images/sample_snapshot.jpg)
 
 🔐 Note: This is a public demo overview. Preview images are intentionally excluded from this public demo to respect privacy and data sensitivity. The full source code is available upon request. Contact me via LinkedIn https://www.linkedin.com/in/hinaasad-/ or email at hinaasad672@gmail.com
 
