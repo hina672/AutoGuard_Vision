@@ -92,7 +92,7 @@ cap = cv2.VideoCapture(0)  # Webcam
 
 
 
-## 📷 Sample Snapshot (Add example image here)
+## 📷 Sample Snapshot
 
 ![example](./v1%20saved_images/sample_snapshot.jpg)
 
