@@ -7,7 +7,7 @@ This project uses the YOLOv8 object detection model to detect specific objects (
 
 ## 🔧 Features
 
-- 📸 Detects objects using [YOLOv8](https://github.com/ultralytics/ultralytics)
+- 📸 Detects objects using YOLOv8
 - 🎯 Calculates real-world distance from the camera using known object width
 - ✅ Only saves snapshots if object is **within 6 feet**
 - 🧠 Avoids redundant saves using **image hashing** and **cooldown timers**
